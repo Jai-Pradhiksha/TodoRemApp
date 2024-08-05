@@ -1,8 +1,38 @@
-# React + Vite
+# To-Do Rem App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple To-Do Remainder app built with React, Bootstrap, and EmailJS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Add, delete, and toggle completion of tasks
+* Set due dates and add notes for each task
+* Receive email reminders for tasks due today
+
+## Getting Started
+
+### Prerequisites
+
+* Node.js installed on your machine
+* A EmailJS account (for email reminders)
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/to-do-list-app.git
+npm install
+```
+### Create a .env file with your EmailJS public key:
+```bash
+EMAILJS_PUBLIC_KEY=my-public-key
+```
+
+### Running the App
+```bash
+npm run dev
+```
+Open your web browser and navigate to `http://localhost:5173`
+
+### Acknowledgments
+* EmailJS for providing a simple email service API
+* Bootstrap for providing a robust CSS framework
+
