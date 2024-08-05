@@ -1,0 +1,22 @@
+.delete-icon {
+  color: red;
+  cursor: pointer;
+}
+
+body {
+  padding: 20px;
+}
+.task-completed {
+  text-decoration: line-through;
+}
+.badge-custom {
+  border-radius: 12px;
+  padding: 0.5em 1em;
+}
+.delete-icon {
+  cursor: pointer;
+}
+.container h2 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
